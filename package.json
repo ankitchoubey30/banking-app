@@ -1,7 +1,6 @@
 {
   "name": "banking_app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,6 @@
   "bugs": {
     "url": "https://github.com/ankitchoubey30/banking-app/issues"
   },
-  "homepage": "https://github.com/ankitchoubey30/banking-app#readme"
+  "homepage": "https://github.com/ankitchoubey30/banking-app#readme",
+  "description": ""
 }
