@@ -6,10 +6,10 @@ const adminController = require('../controller/admin')
 Router.get('/add-product', adminController.getAddProduct);
 
 //to get the already added product 
-Router.get('/product', adminController.getProduct);
+Router.get('/products', adminController.getProducts);
 
 //to get the edit product page
-Router.get('/editProduct/:productId', adminController.getEditProduct);
+Router.get('/edit-product/:productId', adminController.getEditProduct);
 
 //send the details to add the product
 Router.post('/add-product', adminController.postAddProduct);
